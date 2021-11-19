@@ -1,0 +1,87 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.heading:hover {
+    background-image: linear-gradient(#0398fc, #2003fc);
+    box-shadow: 5px 5px 5px black;
+}
+
+.note {
+    font-size: 15px;
+    color: black;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(175, 212, 253);
+    font-family: cursive;
+    font-size: 15px;
+
+}
+
+.copy_right_footer:hover {
+    background-image: linear-gradient(#0a2a66, #060224);
+    text-shadow: 5px 5px 5px rgb(0, 119, 255);
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes identifier {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    12.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    37.5% {
+        box-shadow: 1px 1px 50px rgb(0, 255, 0);
+    }
+
+    50% {
+        box-shadow: 1px 1px 50px rgb(0, 255, 255);
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px rgb(255, 0, 255);
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+}
+
+canvas:hover {
+    box-shadow: 5px 5px 5px darkblue;
+}
